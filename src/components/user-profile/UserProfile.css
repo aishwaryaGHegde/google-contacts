@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+.user-profile {
+    position: absolute;
+    width: 100vw;
+    height: 9.9vh;
+    left: 0;
+    top: 0;
+    background: linear-gradient(93.49deg, #053ED1 0%, #0F4EAC 100%);
+}
+
+.avatar {
+    position: absolute;
+    width: 7.36vh;
+    height: 7.36vh;
+    left: 4.12vw;
+    top: 1.23vh;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%
+}
+
+.display-name {
+    position: absolute;
+    width: 7.01vw;
+    height: 3.426vh;
+    left: 12.027vw;
+    top: 2.03vh;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.43vh;
+    line-height: 3.65vh;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.email {
+    position: absolute;
+    width: 11.18vw;
+    height: 2.28vh;
+    left: 12.027vw;
+    top: 5.7vh;
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.28vh;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+}
+
+.logout {
+    position: absolute;
+    width: 4.6vh;
+    height: 4.6vh;
+    left: 92.1%;
+    top: 10%;
+}
+
+.logout-circle {
+    position: absolute;
+    left: 93.1%;
+    right: 4.69%;
+    top: 25%;
+    bottom: 91.71%;   
+}
+
+.logout-line {
+    position: relative;
+    left: 75%;
+    right: 5.44%;
+    top: 36%;
+    bottom: 93.79%;
+}
+
+.logout-arrow {
+    position: relative;
+    left: 128.05%;
+    right: 0;
+    top: 4%;
+    bottom: 93.19%;
+}
