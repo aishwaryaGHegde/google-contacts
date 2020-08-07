@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+.signin {
+    background: #EFF7F9;;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.signin-container {
+    position: absolute;
+    width: 33.54vw;
+    height: 27.1vh;
+    left: 29.7vw;
+    top: 27.0vh;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(5, 62, 209, 0.19);
+    border-radius: 10px;
+}
+
+.google-signin-text {
+    position: relative;
+    width: 18.486vw;
+    height: 3.80vh;
+    left: 9.02vw;
+    top: 6.66vh;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+
+    color: #222222;
+}
+
+.signin-button {
+    position: absolute;
+    width: 27.84vw;
+    height: 7.61vh;
+    left: 2.84vw;
+    bottom: 5.07vh;
+
+    background: #0A45C2 !important;
+    border-radius: 4px !important;
+
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    /* identical to box height */
+
+    display: flex !important;
+    align-items: center !important;
+    letter-spacing: 0.08em !important;
+
+    color: #FFFFFF !important;
+
+}
