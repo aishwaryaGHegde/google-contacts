@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 .contact-display {
-    position: absolute;
     width: 82vw;
     height: 8.12vh;
     left: 11.32vw;
-    top: 21.116vh;
     background: #FFFFFF;
     box-shadow: 0px 2px 6px rgba(5, 62, 209, 0.14);
     border-radius: 8px;
@@ -12,16 +10,21 @@
     flex-direction: row;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1vh;
 }
 
 .contact-avatar {
     width: 5.4vh;
     height: 5.4vh;
     left: 3.2vw;
-    background: url("../../../resources/google_logo.png");
-    box-sizing: border-box;
     position: relative;
     top: 1.35vh;
+    border: 1px solid #0075FF;
+    border-radius: 50%;
+
 }
 
 .contact-display-name {
@@ -59,7 +62,7 @@
 .contact-phone-number {
     width: 7.083vw;
     height: 2.84vh;
-    font-size: 2.2vh;
+    font-size: 1.8vh;
     line-height: 2.84vh;
     display: flex;
     align-items: center;

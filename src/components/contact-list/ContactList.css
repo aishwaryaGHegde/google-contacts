@@ -33,7 +33,7 @@
     position: absolute;
     width: 15.4vw;
     height: 5.27vh;
-    left: 13.125vw;
+    left: 10.125vw;
     top: 6vh;
 }
 
@@ -41,7 +41,7 @@
     position: absolute;
     width: 3.8vw;
     height: 3.24vh;
-    left: 28.00vw;
+    left: 25.00vw;
     top: 8.5vh;
     font-size: 2.165vh;
     line-height: 1.67vh;
@@ -59,7 +59,7 @@
     color: #B0C6FF;
     top: 13.33vh;
     position: relative;
-    left: 16.32vw;
+    left: 17.32vw;
     width: 4.5vw;
     height: 4.43vh;
 }
@@ -75,3 +75,34 @@
     position: relative;
     white-space: nowrap;
 }
+
+.display-contacts-container {
+    width: 100vw;
+    top: 20vh;
+    overflow-y: scroll;
+    height: 73vh;
+    left: 10.125vw;
+    position: absolute;
+}
+
+/* width */
+.display-contacts-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  .display-contacts-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #F4F7FF;; 
+    border-radius: 4px;
+  }
+   
+  /* Handle */
+  .display-contacts-container::-webkit-scrollbar-thumb {
+    background: #053ED1;; 
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  .display-contacts-container::-webkit-scrollbar-thumb:hover {
+    background: #053ED1; 
+  }

@@ -16,7 +16,8 @@ const Constants = {
 
     },
     localstorage: {
-        userProfile: "user-profile"
+        userProfile: "user-profile",
+        contacts: "user-contacts"
     },
     cookies: {
         tokens: "user-token"

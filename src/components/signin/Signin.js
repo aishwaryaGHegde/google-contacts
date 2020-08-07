@@ -3,6 +3,7 @@ import GoogleLogin from 'react-google-login';
 import {withRouter} from 'react-router-dom'
 import Constants from '../../Constants';
 import Background from '../background/Background'
+import Utility from "../../Utility";
 import './Signin.css'
 
 const Signin = (props) => {
@@ -13,7 +14,7 @@ const Signin = (props) => {
         cookies.set(Constants.cookies.tokens, JSON.stringify(event.tokenObj));
         // set user data as local storage
         localStorage.setItem(Constants.localstorage.userProfile, JSON.stringify(event.profileObj))
-        history.push("/contacts")
+        Utility.usePeople(cookies, history)
       }
       function errorHandler(event) {
           console.log("user authentication failed")
@@ -30,7 +31,8 @@ const Signin = (props) => {
                     clientId={Constants.googleAuth.clientID}
                     buttonText={signinConstants.buttonText}
                     onSuccess={successHandler}
-                    onFailure={errorHandler} />
+                    onFailure={errorHandler} 
+                    scope={"https://www.googleapis.com/auth/contacts"}/>
             </div>
         </div>
     )

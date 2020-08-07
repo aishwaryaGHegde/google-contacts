@@ -8,11 +8,7 @@ import './ContactList.css'
 
 const ContactList = (props) => {
     let {history} = props
-    let test = {
-        name: "abc",
-        email: "xyz@bb.com",
-        phone: 12345
-    }
+    let resp = JSON.parse(localStorage.getItem(Constants.localstorage.contacts))
     return (
         <div className="contacts-container">
             <UserProfile history={history}/>
@@ -27,7 +23,13 @@ const ContactList = (props) => {
                     <div className="column-email">{Constants.title.email}</div>
                     <div className="column-phone">{Constants.title.Phone}</div>
                 </div>
-                <Contacts contact={test}></Contacts>
+                <div className="display-contacts-container">
+                    <ul className="display-contacts-list-ul">
+                        {resp.connections.map(contact => 
+                            <Contacts contact={contact}></Contacts>  
+                        )}
+                    </ul>
+                </div>
             </div>
         </div>
     )
