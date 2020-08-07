@@ -8,7 +8,7 @@ import './ContactList.css'
 
 const ContactList = (props) => {
     let {history} = props
-    let resp = JSON.parse(localStorage.getItem(Constants.localstorage.contacts))
+    let resp = JSON.parse(localStorage.getItem(Constants.localstorage.contacts)) || {}
     return (
         <div className="contacts-container">
             <UserProfile history={history}/>

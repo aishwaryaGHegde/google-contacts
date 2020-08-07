@@ -5,7 +5,7 @@ import Constants from '../../Constants'
 import './UserProfile.css'
 
 const UserProfile = (props) => {
-    let {history, cookies} = props
+    let {history} = props
     const profile = JSON.parse(localStorage.getItem(Constants.localstorage.userProfile) || {})
     const {signOut} = useGoogleLogout({
         clientId: Constants.googleAuth.clientID,
@@ -14,7 +14,6 @@ const UserProfile = (props) => {
     })
     function onLogoutSuccess() {
         console.log('success')
-        cookies.remove(Constants.cookies.tokens)
         localStorage.removeItem(Constants.localstorage.userProfile)
         history.push("/")
     }

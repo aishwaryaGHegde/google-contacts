@@ -17,6 +17,7 @@ const Signin = (props) => {
         Utility.usePeople(cookies, history)
       }
       function errorHandler(event) {
+          console.log(event)
           console.log("user authentication failed")
       }
     return (
