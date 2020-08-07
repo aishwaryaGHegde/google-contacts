@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.contacts-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    position: absolute;
+}
+
+.display-container {
+    position: absolute;
+    z-index: 1;
+    height: calc(100% - 9.9vh);
+    top: 9.9vh;
+    width: 100%;
+    background-color: #FBFDFE;
+}
+
+.display-header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.51vh;
+    line-height: 5.28vh;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #053ED1;
+}
+
+.display-title {
+    position: absolute;
+    width: 15.4vw;
+    height: 5.27vh;
+    left: 13.125vw;
+    top: 6vh;
+}
+
+.display-number {
+    position: absolute;
+    width: 3.8vw;
+    height: 3.24vh;
+    left: 28.00vw;
+    top: 8.5vh;
+    font-size: 2.165vh;
+    line-height: 1.67vh;
+}
+
+.column-headers {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.25vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #B0C6FF;
+    top: 13.33vh;
+    position: relative;
+    left: 16.32vw;
+    width: 4.5vw;
+    height: 4.43vh;
+}
+
+.column-email {
+    left: 32vw;
+    position: relative;
+}
+
+.column-phone {
+    left: 54.444vw;
+    width: 7.08vw;
+    position: relative;
+    white-space: nowrap;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+.contact-display {
+    position: absolute;
+    width: 82vw;
+    height: 8.12vh;
+    left: 11.32vw;
+    top: 21.116vh;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(5, 62, 209, 0.14);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.contact-avatar {
+    width: 5.4vh;
+    height: 5.4vh;
+    left: 3.2vw;
+    background: url("../../../resources/google_logo.png");
+    box-sizing: border-box;
+    position: relative;
+    top: 1.35vh;
+}
+
+.contact-display-name {
+    width: 8.819vw;
+    height: 2.84vh;
+    font-size: 1.3vw;
+    line-height: 2.841vh;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #000000;
+    top: 2.57vh;
+    left: 4.5vw;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.contact-email {
+    width: 12.152vw;
+    height: 2.43vh;
+    font-size: 12px;
+    line-height: 2.43vh;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #000000;
+    position: relative;
+    left: 27.8vw;
+    top: 2.82vh
+
+}
+
+.contact-phone-number {
+    width: 7.083vw;
+    height: 2.84vh;
+    font-size: 2.2vh;
+    line-height: 2.84vh;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #000000;
+    position: relative;
+    left: 41.31vw;
+    top: 2.57vh;
+}
